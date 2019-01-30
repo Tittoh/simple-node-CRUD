@@ -20,6 +20,6 @@ Simple node API with basic CRUD operations.
   | /                                | GET     | Welcome message        |
   | /api/contacts                    | POST    | registering a user     |
   | /api/contacts                    | GET     | Get all contacts       |
-  | /api/contacts/<id>               | GET     | Get one contact        |
-  | /api/contacts/<id>               | PUT     | Update contact         |
-  | /api/contacts/<id>               | DELETE  | Delete contact         |
+  | /api/contacts/:id                | GET     | Get one contact        |
+  | /api/contacts/:id                | PUT     | Update contact         |
+  | /api/contacts/:id                | DELETE  | Delete contact         |
